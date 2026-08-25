@@ -3893,7 +3893,7 @@ def render_extension_manifest() -> bytes:
             "metadata": {
                 "description": "Local NDDev builder toolkit for Junie CLI setup artifacts.",
                 "version": VERSION,
-                "homepage": "https://github.com/NDDev-it-com/nddev-junie-cli-app",
+                "homepage": "https://github.com/rldyourmnd/nddev-junie-cli-app",
             },
             "extensions": [
                 {

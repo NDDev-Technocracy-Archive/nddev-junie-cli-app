@@ -1,7 +1,7 @@
 {
   "contract_version": 3,
   "product_name": "nddev-junie-cli-app",
-  "github_repository": "NDDev-it-com/nddev-junie-cli-app",
+  "github_repository": "rldyourmnd/nddev-junie-cli-app",
   "license": "AGPL-3.0-or-later",
   "manifest_ref": "build/manifest.json",
   "version_ref": "build/version.json",
