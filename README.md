@@ -93,3 +93,12 @@ guidelines, Agent Skills, custom subagents, custom commands, MCP, and hooks. The
 manager also packages a local native Junie extension marketplace source under the
 target, but it does not fabricate installed extension state because Junie does not
 document a stable noninteractive local marketplace installation command.
+
+## Source maintenance checks
+
+`just check` validates the retained public contracts, workflow files and source
+history. `just verify` runs the complete source check. CI prepares Python and
+native audit tools from `.github/workflows/ci.yml` and the archive/member hashes in
+`.github/ci-tools.json`; local checks require those tools on `PATH`.
+These checks do not execute Junie, authenticate a provider, update vendor files or
+publish a release.
